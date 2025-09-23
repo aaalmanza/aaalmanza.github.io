@@ -10,6 +10,21 @@ body {
     color: var(--text);
     background: var(--background);
     font-family: "Oxanium";
+    font-weight: 450;
+    font-optical-sizing: auto;
+    font-kerning: auto;
+}
+
+em {
+    text-decoration: yellow wavy underline;
+}
+
+strong {
+    text-decoration: yellow underline;
+}
+
+a {
+    color: var(--secondary)
 }
 
 h1,
@@ -17,6 +32,7 @@ h2,
 h3 {
     color: var(--primary);
     font-family: "Orbitron";
+    font-optical-sizing: auto;
 }
 
 p {
