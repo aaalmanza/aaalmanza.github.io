@@ -41,7 +41,8 @@ h3 {
 
 h1 {
     padding: 0.5em;
-    border: 3mm ridge orange
+    border: 3mm ridge orange;
+    font-size: 3.25rem;
 }
 
 h2 {
