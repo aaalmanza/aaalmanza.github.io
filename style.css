@@ -27,20 +27,22 @@ strong {
 }
 
 a {
-    color: var(--secondary)
+    color: rgb(156, 56, 13);
 }
 
-h1,
 h2,
 h3 {
-    color: var(--primary);
+    color: rgb(184, 79, 10);
     font-family: "Orbitron";
     font-optical-sizing: auto;
     margin: 1;
 }
 
 h1 {
-    padding: 0.5em;
+    color: rgb(244, 126, 48);
+    background: rgb(46, 46, 46);
+    font-family: "Orbitron";
+    padding: 0.25em;
     border: 3mm ridge orange;
     font-size: 3.25rem;
 }
