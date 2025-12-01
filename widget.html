@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Widget</title>
+    <title>Useless Calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
@@ -13,15 +13,16 @@
 <body>
     <h1 style="text-align: center;">Useless Calculator</h1>
     <a href="miscellaneous.html">Miscellaneous</a>
-    <span id="num1-el"></span>
-    <span id="num2-el"></span>
+    <p></p>
+    <input id="num1-input" type="number" placeholder="Number 1">
+    <input id="num2-input" type="number" placeholder="Number 2">
     <br>
     <button onclick="add()">Add</button>
     <button onclick="subtract()">Subtract</button>
     <button onclick="divide()">Divide</button>
     <button onclick="multiply()">Multiply</button>
     <br>
-    <span id="sum-el">Sum: </span>
+    <span id="sum-el">Result: </span>
     <script src="widget.js"></script> 
 </body>
 </html>
