@@ -20,7 +20,6 @@ if (!sumEl) {
     console.warn("#sum-el not found in DOM")
 }
 
-// Make the calculator "useless": apply a random integer offset between -17 and +17
 function randomOffset() {
     // returns an integer in [-17, 17]
     return Math.floor(Math.random() * 35) - 17
