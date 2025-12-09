@@ -62,10 +62,36 @@ img {
     background: var(--primary);
     width: auto;
     height: 150px;
-    border: ridge orange
+    border: ridge rgb(255, 165, 0)
 }
 
 audio {
     padding: 1em;
     border: dashed orange
+}
+
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron";
+  padding: 0.15em;
+  border: 3mm ridge orange;
+  font-size: 1rem;
+  background-color: rgb(204, 204, 204); /* Dark background */
+  display: flex; /* Arranges list items horizontally */
+  justify-content: space-around; /* Distributes links evenly */
+}
+
+nav ul li a {
+  display: block; /* Makes the entire area clickable */
+  color: rgb(244, 126, 48);
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none; /* Removes default link underlines */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* Color change on hover */
+  color: black;
 }
