@@ -42,6 +42,7 @@ h1 {
     font-family: "Orbitron";
     padding: 0.25em;
     border: 3mm ridge orange;
+    border-radius: 15px;
     font-size: 3.25rem;
 }
 
@@ -83,6 +84,7 @@ nav ul {
   font-family: "Orbitron";
   padding: 0.15em;
   border: 3mm ridge orange;
+  border-radius: 15px;
   font-size: 1rem;
   background-color: rgba(204, 204, 204, 0.7); /* Dark background */
   display: flex; /* Arranges list items horizontally */
