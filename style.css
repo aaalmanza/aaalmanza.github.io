@@ -4,6 +4,10 @@ html {
     --primary: #f47e30;
     --secondary: #ed713c;
     --accent: #efa700;
+    background-image: url("images/DORFic_wallpaper_opaque.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+
 }
 
 body {
@@ -15,7 +19,9 @@ body {
 }
 
 p {
-    border: double thick #ed713c
+    border: solid #ed713c;
+    border-radius: 15px;
+    padding: 8.75px
 }
 
 a {
@@ -32,7 +38,7 @@ h3 {
 
 h1 {
     color: rgb(244, 126, 48);
-    background: rgb(204, 204, 204);
+    background: rgba(204, 204, 204, 0.7);
     font-family: "Orbitron";
     padding: 0.25em;
     border: 3mm ridge orange;
@@ -50,7 +56,7 @@ h3 {
 }
 
 p {
-    background: var(--accent);
+    background: var(--background);
 }
 
 li::marker {
@@ -78,7 +84,7 @@ nav ul {
   padding: 0.15em;
   border: 3mm ridge orange;
   font-size: 1rem;
-  background-color: rgb(204, 204, 204); /* Dark background */
+  background-color: rgba(204, 204, 204, 0.7); /* Dark background */
   display: flex; /* Arranges list items horizontally */
   justify-content: space-around; /* Distributes links evenly */
 }
@@ -93,5 +99,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #ddd; /* Color change on hover */
-  color: black;
+  color: rgb(202, 104, 13);
 }
+
