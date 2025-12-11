@@ -24,6 +24,46 @@ p {
     padding: 8.75px
 }
 
+figure {
+  margin: 0 auto; /* Center the figure */
+  display: table; /* Optional: Helps center the figure if needed, while maintaining width */
+}
+
+figure:hover {
+  background-color: #ddd; /* Color change on hover */
+  color: rgb(202, 104, 13);
+}
+
+figcaption:hover {
+  background-color: #ddd; /* Color change on hover */
+  color: rgb(202, 104, 13);
+
+}
+
+figcaption {
+  list-style-type: none; /* Removes bullet points */
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron";
+  padding: 0.15em;
+  border: 3mm ridge orange;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: rgba(204, 204, 204, 0.7); /* Dark background */
+  display: flex; /* Arranges list items horizontally */
+  justify-content: space-around; /* Distributes links evenly */
+  color: rgb(244, 126, 48);
+}
+
+.homebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .notice {
     background: yellow;
 }
@@ -69,11 +109,10 @@ li::marker {
 }
 
 img {
-    padding: 2px;
-    background: var(--primary);
     width: auto;
     height: 150px;
-    border: ridge rgb(255, 165, 0)
+    border: 3.0mm ridge orange;
+    border-radius: 15px;
 }
 
 audio {
