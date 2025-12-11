@@ -24,6 +24,10 @@ p {
     padding: 8.75px
 }
 
+.notice {
+    background: yellow;
+}
+
 a {
     color: rgb(184, 63, 11);
 }
